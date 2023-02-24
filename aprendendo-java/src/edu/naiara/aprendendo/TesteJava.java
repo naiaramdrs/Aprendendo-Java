@@ -4,7 +4,7 @@ public class TesteJava {
     
     public static void main(String[] args) {
         
-        double nota = 4;
+        float nota = 4;
         boolean resultado = aprovadoPorMedia(nota);
 
         if(resultado == true)
@@ -14,8 +14,8 @@ public class TesteJava {
 
     }
 
-    public static boolean aprovadoPorMedia (double nota){
-        double media = 6;
+    public static boolean aprovadoPorMedia (float nota){
+        float media = 6;
 
         if(nota >= media)
             return true;
